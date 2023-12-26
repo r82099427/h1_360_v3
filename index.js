@@ -466,18 +466,18 @@
     return null;
   }
 
-  function LoadScene(scene) {
-    stopAutorotate();
-    scene.view.setParameters(scene.data.initialViewParameters);
-    //scene.scene.switchTo();
-    //startAutorotate();
-    updateSceneName(scene);
-    updateSceneList(scene);
-  }
+  // function LoadScene(scene) {
+  //   stopAutorotate();
+  //   scene.view.setParameters(scene.data.initialViewParameters);
+  //   //scene.scene.switchTo();
+  //   //startAutorotate();
+  //   updateSceneName(scene);
+  //   updateSceneList(scene);
+  // }
 
-  for (var i = 0; i <= 9; i++) {
-    LoadScene(scenes[i]);
-  }
+  // for (var i = 0; i <= 9; i++) {
+  //   LoadScene(scenes[i]);
+  // }
 
   // Display the initial scene.
   switchScene(scenes[0]);
